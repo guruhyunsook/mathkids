@@ -1,0 +1,170 @@
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #5dc3d0;
+  color: rgb(82, 142, 150);
+  width: 32px;
+  font-size: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 350%;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  box-shadow: inset 0px 3px 0 rgba(255, 255, 255, 0.3), 0 3px 3px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  border-bottom: solid 3px #549fa9;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.65);
+  transition: .4s;
+  margin: 5px;
+}
+
+.btn:active {
+  -ms-transform: translateY(1px);
+  -webkit-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.35);
+  border-bottom: none;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.num {
+  font-size: 50px;
+}
+
+.bg-lightblue {
+  background: #899da038;
+}
+
+.bg-lightgreen {
+  background: #d3e4cf;
+}
+
+.button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 5px 15px;
+  font-size: 40px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgb(82, 117, 82);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  background-color: rgb(82, 117, 82);
+}
+
+.button:active {
+  background-color: rgb(82, 117, 82);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button-next {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 5px 15px;
+  font-size: 40px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgb(22, 72, 179);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button-next:hover {
+  background-color: rgb(22, 72, 179);
+}
+
+.button-next:active {
+  background-color: rgb(22, 72, 179);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.next {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
